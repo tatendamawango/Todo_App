@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "242816541748",
+    "project_id": "todoapp-377de",
+    "storage_bucket": "todoapp-377de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242816541748:android:46ff2015d838d56a05d661",
+        "android_client_info": {
+          "package_name": "edu.ktu.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242816541748-33lcqfujcklscjib14vmsmqr8qato9i2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7QX50X3w3RVQZGyt2nNJuFWnI3DCXK84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242816541748-33lcqfujcklscjib14vmsmqr8qato9i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Edit"
+        android:id="@+id/editOption"/>
+    <item android:title="Delete"
+        android:id="@+id/deleteOption"/>
+    <item android:title="Move to in progress"
+        android:id="@+id/inProgressOption"/>
+    <item android:title="Move to tasks"
+        android:id="@+id/tasksOption"/>
+</menu>

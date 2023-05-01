@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+            <variable
+                name="task"
+                type="edu.ktu.firstapp.models.Task"/>
+    </data>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:background="@color/white"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@color/white"
+            android:paddingVertical="20dp">
+
+            <TextView
+                android:id="@+id/datetv"
+                android:layout_width="127dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="0dp"
+                android:paddingStart="16dp"
+                android:text="@{task.Date}"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descriptiontv"
+                tools:text="12/08/2021" />
+
+            <TextView
+                android:id="@+id/descriptiontv"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:paddingStart="16dp"
+                android:text="@{task.Description}"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Jeremiah 4:14" />
+
+            <ImageButton
+                android:id="@+id/moreBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/baseline_more_vert_24"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>
