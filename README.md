@@ -18,6 +18,7 @@ A sleek, Firebase-powered ToDo app built using **MVVM architecture** with Materi
 ---
 
 ## 📁 Project Structure
+```
 ├── adapters/ # RecyclerView adapters for task lists │ ├── FinishedAdapter.kt │ ├── InProgressAdapter.kt │ └── TaskAdapter.kt
 
 ├── fragments/ # Screens for tasks and user flows │ ├── LoginFragment.kt │ ├── SignupFragment.kt │ ├── TasksFragment.kt │ ├── InProgressFragment.kt │ ├── FinishedFragment.kt │ └── EditTaskFragment.kt │ ...
@@ -29,7 +30,7 @@ A sleek, Firebase-powered ToDo app built using **MVVM architecture** with Materi
 ├── viewModels/ # MVVM ViewModels │ ├── LoginViewModel.kt │ ├── SignUpViewModel.kt │ ├── EditTaskViewModel.kt │ └── EditProfileViewModel.kt
 
 └── MainActivity.kt # NavHost for fragment transactions
-
+```
 ---
 
 ## 🔄 Flow Overview
